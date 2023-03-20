@@ -1,0 +1,17 @@
+{% extends 'boutique/base.html' %}
+
+{% block content %}
+    <hr>
+    <h1 class="intro-text text-center">Merci !</h1>
+    <hr class="detail-separator">
+    <p>Le film <em>{{ films_titre }}</em> vient d'être retiré des rayonnages. Une main délicate a déposé votre nom sur sa couverture et l'a rangé en vous attendant.
+    Dépêchez-vous ! <em>{{ films_titre }}</em> trépigne d'impatience et chance déjà vos louanges.
+    </p>
+    <hr>
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" 
+        src="https://www.youtube.com/embed/ZSbuikMdgqA" frameborder="0" *
+        allowfullscreen></iframe> 
+    </div>
+
+{% endblock content %}

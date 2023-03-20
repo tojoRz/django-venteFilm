@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu li:hover a {
+    color: #00baff!important;
+    text-decoration: underline 2px!important;
+}
+
+.active {
+    color: #00baff!important;
+}
+.fond1{
+    background-image: url(../templates/images/fond1.png);
+    background-repeat: no-repeat;
+    background-size: cover!important;
+    background-position: center;
+    height: 100vh;
+}
+.imgHead{
+    background-image: url(../boutique/images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
